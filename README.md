@@ -7,14 +7,23 @@
 
 ## Work Experience
 **Associate Application Developer @ ADP (_July 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+- Working on SRE Team to maintain, develop, and monitor systems and software utilized/developed by ADP
+- Collaborating with other teams to ensure project deployments do not negatively affect present systems
+- Researching and comparing different platforms/technologies to determine if our systems are as efficient as possible
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed chatbot using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+### FedEx “EzPST” Project - Mississippi State University
+Created a mobile and web interface for the FedEx shipping hubs. The mobile version gives ground employees the opportunity to scan bar codes of packages lost within shipping hubs. Then relays the information from the bar code to Data Sheets that can be viewed by managers in the Web Interface. Presented the project directly to FedEx via Zoom, implementing ideas that they liked and removing features they disliked.
+
+### Movie Recommending AI Chat Bot - Mississippi State University
+Created an AI Chat Bot that would recommend movies based on user input such as genre, date of release, actors, etc.
+Used **Flask** library to collaboratively use **Python** and **HTML**. A chat bot interface was created using HTML. Python would take input from the chat bot and utilize a **WebCrawler** through IMDB’s database to find movie information and output movie recommendations to another HTML page.
+
+### Continuous Dynatrace integration - ADP
+Constant improvement of monitoring using **Dynatrace** to spot negative trends affecting hosts and applications. Setting custom alerts via Opsgenie to relay information found within Dynatrace. Creating and modifying management zones and dashboards to provide team with easy to view charts/graphs of product performance. Utilizing **Kloud9/OneAgent** to install hosts and update host metadata and versions. 
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
