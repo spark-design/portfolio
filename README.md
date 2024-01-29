@@ -12,9 +12,6 @@
 - Researching and comparing different platforms/technologies to determine if our systems are as efficient as possible
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
-
 ### FedEx “EzPST” Project - Mississippi State University
 Created a mobile and web interface for the FedEx shipping hubs. The mobile version gives ground employees the opportunity to scan bar codes of packages lost within shipping hubs. Then relays the information from the bar code to Data Sheets that can be viewed by managers in the Web Interface. Presented the project directly to FedEx via Zoom, implementing ideas that they liked and removing features they disliked.
 
@@ -24,8 +21,6 @@ Used **Flask** library to collaboratively use **Python** and **HTML**. A chat bo
 
 ### Continuous Dynatrace integration - ADP
 Constant improvement of monitoring using **Dynatrace** to spot negative trends affecting hosts and applications. Setting custom alerts via Opsgenie to relay information found within Dynatrace. Creating and modifying management zones and dashboards to provide team with easy to view charts/graphs of product performance. Utilizing **Kloud9/OneAgent** to install hosts and update host metadata and versions. 
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
 
 - [LinkedIn](https://www.linkedin.com/in/connor-sparkman-6ab68816b/)
