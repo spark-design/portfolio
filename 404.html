@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Connor Sparkman</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="%23c96442"/><text x="32" y="45" font-family="Georgia,serif" font-size="38" font-weight="600" text-anchor="middle" fill="%23faf9f5">C</text></svg>'>
+<style>
+:root{--bg:#faf9f5;--ink:#141413;--ink-soft:#50504a;--accent:#c96442;--line:#e3e0d5}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',-apple-system,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.box{max-width:620px;width:100%}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:clamp(2.4rem,7vw,4rem);letter-spacing:-.02em;line-height:1.1}
+h1 em{font-style:italic;color:var(--accent)}
+.term{background:#141413;border-radius:14px;padding:18px 20px;margin:32px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.82rem;line-height:1.75;color:#b8b6aa;white-space:pre-wrap;word-break:break-word}
+.term .err{color:#e58e6f}
+.term .sys{color:#8a8a82}
+.term .prompt{color:#e8a285}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;background:var(--ink);color:var(--bg);padding:11px 24px;border-radius:100px;font-weight:500;font-size:.9rem;text-decoration:none;transition:background .2s,transform .2s}
+.btn:hover{background:var(--accent);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>404 — route <em>not found.</em></h1>
+  <div class="term"><span class="prompt">$ curl -X GET connorsparkman.com<span id="path"></span></span>
+<span class="err">[api-gateway]   404 — this path isn't in the API spec.</span>
+<span class="sys">[bedrock-agent] reasoning: "user seems lost" → tool: redirect.home()</span>
+<span class="sys">[cloudwatch]    don't worry, nobody saw that. (telemetry logged, though.)</span></div>
+  <div class="row">
+    <a class="btn" href="/">GET / — take me home</a>
+    <a class="btn ghost" href="/resume.pdf">GET /resume</a>
+  </div>
+</div>
+<script>
+document.getElementById('path').textContent=location.pathname;
+</script>
+<script data-goatcounter="https://connorsparkman.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
